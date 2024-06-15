@@ -3,16 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "generate:faqs": "node src/generators/build-faqs.js",
+    "generate:all": "npm run generate:faqs",
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run generate:all && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@preline/accordion": "^2.3.0",
+    "gray-matter": "^4.0.3",
     "next": "14.2.3",
     "preline": "^2.3.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
