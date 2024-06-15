@@ -1,0 +1,12 @@
+[
+  {
+    "order": 1,
+    "title": "How do I connect to the network?",
+    "content": "You can either use the embedded node or connect to one of the secure public nodes:\n- wss://my.hc1node.com:35998\n- wss://node.zenonhub.io:35998"
+  },
+  {
+    "order": 2,
+    "title": "How do I generate plasma?",
+    "content": "You can either fuse some QSR to generate a fixed amount of plasma, or use the plasma bot to temporarily allocate some plasma to your address."
+  }
+]
