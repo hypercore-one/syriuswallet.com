@@ -1,13 +1,9 @@
 import React from 'react';
 import Markdown from 'react-markdown'
-
-interface Item {
-	title: string;
-	content: string;
-}
+import { AccordionItem } from '@/types';
 
 interface AccordionProps {
-	items: Item[];
+	items: AccordionItem[];
 }
 
 const Accordion: React.FC<AccordionProps> = (props: AccordionProps) => {
@@ -16,7 +12,7 @@ const Accordion: React.FC<AccordionProps> = (props: AccordionProps) => {
 
 	return (
 		<div className={`hs-accordion-group group-${uuid}`}>
-			{items.map((item, index:number) => (
+			{items.map((item: AccordionItem, index:number) => (
 				<div key={index} id={`accordion-${uuid}-heading-${index}`}
 					 className="hs-accordion bg-white border -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-neutral-800 dark:border-neutral-700">
 					<button
