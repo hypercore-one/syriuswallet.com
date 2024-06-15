@@ -3,7 +3,7 @@ const path = require('path');
 const matter = require('gray-matter');
 
 // Directory where your markdown files are located
-const faqDir = path.join(__dirname, '../md/tutorials');
+const faqDir = path.join(__dirname, '../content/tutorials');
 const files = fs.readdirSync(faqDir);
 
 // Extract title and content from each markdown file
