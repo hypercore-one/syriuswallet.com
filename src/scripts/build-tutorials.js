@@ -17,6 +17,8 @@ const faqs = files.map(filename => {
 	return {
 		order: data.order,
 		title: data.title,
+		excerpt: data.excerpt,
+		image: data.image,
 		slug: data.slug.toLowerCase().trim().replace(/[\s\W-]+/g, '-'),
 		content
 	};
