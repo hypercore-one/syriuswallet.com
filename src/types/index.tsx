@@ -3,18 +3,28 @@ export interface NavItem {
 	url: string;
 }
 
-export interface Tutorial {
+export interface CardItem {
 	title: string;
-	slug: string;
-	content: string;
-}
-
-export interface FAQ {
-	title: string;
-	content: string;
+	image: string;
+	excerpt: string;
+	url: string;
 }
 
 export interface AccordionItem {
+	title: string;
+	content: string;
+}
+
+export interface Tutorial {
+	title: string;
+	slug: string;
+	image: string;
+	content: string;
+	excerpt?: string;
+	order: number;
+}
+
+export interface FAQ {
 	title: string;
 	content: string;
 }
