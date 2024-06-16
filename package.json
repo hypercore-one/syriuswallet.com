@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "generate:faqs": "node src/scripts/build-faqs.js",
-    "generate:tutorials": "node src/scripts/build-tutorials.js",
+    "generate:faqs": "node scripts/build-faqs.js",
+    "generate:tutorials": "node scripts/build-tutorials.js",
     "generate:all": "npm run generate:faqs && npm run generate:tutorials",
     "dev": "next dev",
     "build": "npm run generate:all && next build",

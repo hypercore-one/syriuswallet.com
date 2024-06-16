@@ -19,9 +19,9 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 # FAQs Page
-The FAQs are populated from the `.md` files in `src/content/faqs` these are compiled to a `public/faqs.json` file during the build process. 
+The FAQs are populated from the `.md` files in `content/faqs` these are compiled to a `public/faqs.json` file during the build process. 
 
-To add a new FAQ simply create a new markdown file in `src/content/faqs` using the following template, then run `npm run generate:faqs`
+To add a new FAQ simply create a new markdown file in `content/faqs` using the following template, then run `npm run generate:faqs`
 
 ```markdown
 ---
@@ -33,9 +33,9 @@ Example answer text goes here
 
 # Tutorials Page
 
-The Tutorials are populated from the `.md` files in `src/content/tutorials` these are compiled to a `public/tutorials.json` file during the build process.
+The Tutorials are populated from the `.md` files in `content/tutorials` these are compiled to a `public/tutorials.json` file during the build process.
 
-To add a new tutorial simply create a new markdown file in `src/content/tutorials` using the following template. 
+To add a new tutorial simply create a new markdown file in `content/tutorials` using the following template. 
 
 If you want to include images in your tutorial please make a new folder in the `public/img/tutorials/` directory and use absolute paths in the `.md` file as in the example below.
 
