@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import { CardItem } from '@/types';
+import { TutorialCardItem } from '@/types';
 
 interface TutorialCardProps {
-	item: CardItem;
+	item: TutorialCardItem;
 }
 
 const TutorialCard: React.FC<TutorialCardProps> = (props: TutorialCardProps) => {
