@@ -3,9 +3,27 @@ export interface NavItem {
 	url: string;
 }
 
-export interface CardItem {
+export interface PageHeading {
+	title: string;
+	description?: string;
+}
+
+export interface PageHero {
+	title: string;
+	description?: string;
+	bgColour: string;
+}
+
+export interface TutorialCardItem {
 	title: string;
 	image: string;
+	excerpt: string;
+	url: string;
+}
+
+export interface DownloadCardItem {
+	image: string;
+	title: string;
 	excerpt: string;
 	url: string;
 }

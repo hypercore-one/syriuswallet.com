@@ -9,6 +9,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'zenon-green': '#19e321',
+        'zenon-blue': '#0061EB',
+        'zenon-pink': '#F91690',
+        'syrius-green': '#00D557',
+        'intergalactic-black': '#151515',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
