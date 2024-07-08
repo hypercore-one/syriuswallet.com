@@ -28,7 +28,7 @@ export default function Navbar() {
 			))}
 			<div>
 				<a className="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#19e321] font-medium text-sm text-neutral-800 rounded-full focus:outline-none"
-				   href="/downloads">
+				   href="/download">
 					Download
 				</a>
 			</div>
